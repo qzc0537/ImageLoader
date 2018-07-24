@@ -23,7 +23,7 @@ allprojects {
 ```
 implementation 'com.github.qzc0537:ImageLoader:1.0.1'
 ```
-3.初始化实现类：
+3.初始化实现类（默认使用Glide，其他自己实现）：
 ```
  ImageLoader.getInstance().setImageLoader(new GlideLoader(this,
                 R.mipmap.ic_launcher, R.mipmap.ic_launcher));
